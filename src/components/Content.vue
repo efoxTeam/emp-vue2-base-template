@@ -1,12 +1,6 @@
 <template>
   <div>
     <div class="v2box">{{ title }}</div>
-    <button class="button" @click="add">Vue2 Add Button</button>
-    <div class="v2box" >Prop: {{ dataProps }}</div>
-    <p>============ button component start =============</p>
-    <Button textVal='button components in content from import' />
-    <DynamicButton textVal='dynamic import' />
-    <p>============ button component end =============</p>
   </div>
 </template>
 
